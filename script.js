@@ -12,6 +12,11 @@ document.querySelectorAll('.key').forEach(key => {
     });
 });
 
+// const handleVolume = (e) => {
+//     audio.volume = e.target.value; // passing the range slider value as an audio volume
+// }
+
+
 // Optional: Add keyboard key functionality
 // Map keyboard keys to piano notes
 document.addEventListener('keydown', function(event) {
@@ -19,42 +24,54 @@ document.addEventListener('keydown', function(event) {
 
     // Map specific keyboard keys to piano notes
     switch(event.key) {
-        case 'a':  // 'A' key plays the C note
+        case 'a':  
             note = 'C5';
             break;
-        case 'w':  // 'W' key plays the C# note
+        case 'w':  
             note = 'Db5';
             break;
-        case 's':  // 'S' key plays the D note
+        case 's':  
             note = 'D5';
             break;
-        case 'e':  // 'E' key plays the D# note
+        case 'e':  
             note = 'Eb5';
             break;
-        case 'd':  // 'D' key plays the E note
+        case 'd':  
             note = 'E5';
             break;
-        case 'f':  // 'F' key plays the F note
+        case 'f': 
             note = 'F5';
             break;
-        case 't':  // 'T' key plays the F# note
+        case 't':  
             note = 'Gb5';
             break;
-        case 'g':  // 'G' key plays the G note
+        case 'g':  
             note = 'G5';
             break;
-        case 'y':  // 'Y' key plays the G# note
+        case 'y':  
             note = 'Ab5';
             break;
-        case 'h':  // 'H' key plays the A note
+        case 'h':  
             note = 'A5';
             break;
-        case 'u':  // 'U' key plays the A# note
+        case 'u':  
             note = 'Bb5';
             break;
-        case 'j':  // 'J' key plays the B note
+        case 'j':  
             note = 'B5';
             break;
+        case 'k':  
+            note = 'C6';
+            break;
+        // case 'x':  
+        //     note = 'C6';
+        //     break;
+        // case 'k':  
+        //     note = 'C6';
+        //     break;
+        // case 'k':  
+        //     note = 'C6';
+        //     break;
         // Add more keys if you want to support more octaves
     }
 
@@ -62,4 +79,5 @@ document.addEventListener('keydown', function(event) {
     if (note) {
         playSound(note);
     }
+    // volumeSlider.addEventListener("input", handleVolume);
 });
