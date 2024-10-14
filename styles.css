@@ -78,3 +78,17 @@ html {
         width: 633px;
     }
 }
+
+/* 
+.key.white:active {
+    transform: translateY(4px); 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    background-color: #f0f0f0; 
+}
+
+
+.key.black:active {
+    transform: translateY(4px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    background-color: #333; 
+*/
