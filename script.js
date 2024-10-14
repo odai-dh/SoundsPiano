@@ -20,40 +20,40 @@ document.addEventListener('keydown', function(event) {
     // Map specific keyboard keys to piano notes
     switch(event.key) {
         case 'a':  // 'A' key plays the C note
-            note = 'C';
+            note = 'C3';
             break;
         case 'w':  // 'W' key plays the C# note
-            note = 'Db';
+            note = 'Db3';
             break;
         case 's':  // 'S' key plays the D note
-            note = 'D';
+            note = 'D3';
             break;
         case 'e':  // 'E' key plays the D# note
-            note = 'Eb';
+            note = 'Eb3';
             break;
         case 'd':  // 'D' key plays the E note
-            note = 'E';
+            note = 'E3';
             break;
         case 'f':  // 'F' key plays the F note
-            note = 'F';
+            note = 'F3';
             break;
         case 't':  // 'T' key plays the F# note
-            note = 'Gb';
+            note = 'Gb3';
             break;
         case 'g':  // 'G' key plays the G note
-            note = 'G';
+            note = 'G3';
             break;
         case 'y':  // 'Y' key plays the G# note
-            note = 'Ab';
+            note = 'Ab3';
             break;
         case 'h':  // 'H' key plays the A note
-            note = 'A';
+            note = 'A3';
             break;
         case 'u':  // 'U' key plays the A# note
-            note = 'Bb';
+            note = 'Bb3';
             break;
         case 'j':  // 'J' key plays the B note
-            note = 'B';
+            note = 'B3';
             break;
         // Add more keys if you want to support more octaves
     }
